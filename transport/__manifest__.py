@@ -1,0 +1,15 @@
+{
+    'name': 'Transport',
+    'version': '10.0.1.0.0',
+    'author': 'Kristian Maulana',
+    'category': 'Transport Management System',
+    'license': "AGPL-3",
+    'Summary': 'A Module For Transport Management System',
+    'images': ['static/description/icon.png'],
+    'depends': ['base', 'fleet', 'inventory', 'account', 'sale', 'purchase'],
+    'data': [],
+    'demo': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
